@@ -1,9 +1,8 @@
 <header>
 	<!--	{{ strings.Repeat ( .Site.Title | len | add 6 ) "=" }}<br> -->
-	== <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> ==<br>
+	<h2> == <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> == </h2> 
 	<!-- {{ strings.Repeat ( .Site.Title | len | add 6 ) "=" }} -->
-	<br>
-	<div style="float: left;">{{ .Site.Params.subtitle }}</div><br>
+	<h3> <div style="float: left;">{{ .Site.Params.subtitle }}</div> </h3> <br>
 	<p>
 	<nav>
 			<a href="/"><b>/</b></a>.
